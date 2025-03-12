@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', function (req, res) {
-    res.sendFile('index.html', { root: __dirname });
+    res.sendFile('wsExample.html', { root: __dirname });
 });
 
 server.on('request', app);
