@@ -1,9 +1,20 @@
 const express = require('express');
+const sqlite3 = require("sqlite3");
 const server = require('http').createServer();
 const app = express();
 const port = 3000;
 
+
+
+const db = new sqlite3.Database("frontend.db");
+
+
+
+
 app.get('/', function (req, res) {
+
+
+
 	res.sendFile('index.html', { root: __dirname });
 });
 

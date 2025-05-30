@@ -1,0 +1,12 @@
+.add-check input {
+    padding: .5rem;
+    height: 2rem;
+    border-radius: 2rem;
+    margin-left: 1rem;
+}
+
+.add-check label {
+
+
+    margin-left: 2rem;
+}
